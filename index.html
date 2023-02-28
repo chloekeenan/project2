@@ -4,40 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors </title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://kit.fontawesome.com/b26569ff5a.js" crossorigin="anonymous"></script>
-
-    <title>Rock Paper Scissors
-    </title>
 </head>
 <body>
-    <div class="container">
-        <header class="header"><h1>Rock Paper Scissors</h1>
-        <button id="replay" class="replay-btn">Replay Game</button>
-        <div id="score" class="score"></div>
-        <p>You:0</p>
-        <p>Computer:0</p>
-    </header>
-<h2>Make Your Move</h2>
-    <div class="choices">
-        <i id="rock" class="choice fas fa-hand-rock fa-5x"></i>
-        <i id="paper" class="choice fas fa-hand-paper fa-5x"></i>
-        <i id="scissors" class="choice fas fa-hand-scissors fa-5x"></i>
-      </div>
-    </div>
-
-
-
-      <!-- Modal -->
-      <div class="modal">
-        <div id="result" class="modal-content"></div>
-        <h1>You Win!</h1>
-        <i class="choice fas fa-hand-paper fa-10x"></i>
-
-      </div>
     
+    <h1>Rock, Paper, Scissors!</h1>
 
+    <h2>Computer Choice: <span id="computer-choice"></span></h2>
+    <h2>Your Choice: <span id="user-choice"></span></h2>
+    <h2>Result: <span id="result"></span></h2>
 
+    <button id="Rock">Rock</button>
+    <button id="Paper">Paper</button>
+    <button id="Scissors">Scissors</button>
+
+   
+
+    
+    <script src="assets/js/script.js"></script>
 </body>
- <script src="assets/js/script.js"></script>
 </html>

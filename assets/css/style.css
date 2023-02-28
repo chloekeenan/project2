@@ -1,74 +1,13 @@
-:root {
-    --primary-color: purple;
-    --dark-color: #333333;
-    --light-color: #f4f4f4;
-    --lose-color: #dc3545;
-    --win-color: #28a745;
-    --modal-duration: 1s;
-  }
-  
-  body {
-    font-family:Arial, Helvetica, sans-serif;
-    line-height: 1.8;
-    background: pink;
-    color: black;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: auto;
-    overflow: hidden;
-    padding: 0 2rem;
-    text-align: center;
-  }
-  
-  .restart-btn {
-    display: inline-block;
-    background: var(--light-color);
-    color: #333;
-    padding: 0.7rem 1.8rem;
-    font-size: 2rem;
-    cursor: pointer;
-    outline: none;
-    border: none;
-    margin-bottom:2rem;
-  }
+* {
+  font-family: arial;
+  text-align: center;
+  background-color: pink;
+}
 
-  .header {
-    text-align: center;
-    margin: 2rem 0;
-  }
-  
-  .header h1 {
-    margin-bottom: 2rem;
-  }
-  
-  .choices {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
-    margin-top: 3rem;
-    text-align: center;
-  }
-  
-  .choice {
-    cursor: pointer;
-  }
-  
-  .choice:hover {
-    color: var(--primary-color);
-  }
-  
+#wrapper {
+  display: block;
+  max-width: 300px;
+  top: 50%;
+  left: 50%
+}
 
-
-  @media (max-width: 700px) {
-    .choice {
-      font-size: 10px;
-    }
-  }
-  
-  @media (max-width: 500px) {
-    .choice {
-      font-size: 70px;
-    }
-  }
